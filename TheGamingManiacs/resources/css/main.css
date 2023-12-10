@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+html{
+    max-width: 2400px;
+}
+
+body{
+    background: rgb(238, 235, 235);
+}
+
+.navbar_collapse{
+    background-color: black;
+    padding: 10px yellow;
+}
+
+.lg-view{
+    display:inline-block;
+ }
+ 
+ .sm-view{
+    display:none;
+ }
+
+ .responsive-body{
+    width: 75%;
+}
+
+.trending-img{
+    height: 25vh;
+
+    object-fit:cover;
+}
+
+
+.logo{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.7rem;
+}
+
+.logo-container{
+    width: 100%;
+    text-align: center;
+}
+
+.feature-post{
+    object-fit: cover;
+}
+
+.feature-card{
+    border: none;
+    overflow: hidden;
+}
+
+.feature-post-bg{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    background: linear-gradient(transparent, rgba(31, 31,31, 0.9) 60%);
+}
+
+.feature-post-bg h5{
+    font-size: 2rem;
+}
+
+.nav-rounded{
+    border-radius: 40px;
+}
+
+.nav-item-modified{
+    font-family: 'Changa', sans-serif;
+    font-size: 1.2rem;
+    margin-top: auto;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.trending-title{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+.img-container{
+    height: 20vh;
+    width: 100%;
+    object-fit:cover;
+}
+
+
+
+
+
+
+
+@media (max-width: 680px){
+    .navbar{
+        position: absolute;
+        left: 10;
+        top: 0;
+        z-index: 10;
+        background-color: rgb(238, 235, 235);
+    }
+
+    .responsive-body{
+        width: 100%;
+    }
+
+    .lg-view{
+        display:none;
+     }
+ 
+     .sm-view{
+        display:inline-block;
+     }
+
+    
+}

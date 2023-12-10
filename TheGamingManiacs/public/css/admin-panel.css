@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.logo{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.7rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:focus{
+    background-color: rgb(103, 131, 192);
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(103, 131, 192);
+}
+
+.nav-item:hover{
+    background-color: #1b1e22;
+}
+
+
+.sidebar-dropdown,
+.sidebar-dropdown button,
+.sidebar-dropdown a{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-list li{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.dropdown-list hr{
+    margin-top: 1px;
+}
+
+.sidebar-dropdown a:hover{
+    color: rgba(255, 255, 255, 0.411);
+}
+
+.new-btn{
+    color: white;
+    text-decoration: none;
+    background-color: #212529;
+    font-size: 1.22rem;
+    line-height: 100%;
+}
+
+.new-btn:hover{
+    color: white;
+    background-color: #171a1d;
+}
+
+.post-control-nav{
+    color:#1b1e22;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.post-control-nav:hover{
+    color:#1b1e22;
+
+    border-bottom: solid 3px #1b1e22af;;
+}
+
+.post-link{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #1b1e22;
+}
+
+.text-sm{
+    font-size: 1rem;
+}
+
+.admin-post-container{
+    margin-top: 35px;
+    padding: 0;
+    max-height: 700px;
+    overflow: auto;
+}
+
+.show-more-dropdown{
+    position: absolute;
+    bottom: -5px;
+    z-index: 10;
+    right: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0 0 0;
+    background-color: #fff;
+}
+
+.show-more-dropdown ul{
+    list-style: none;
+}
+
+.show-more-dropdown a{
+    text-align: end;
+    color: #1b1e22;
+    text-decoration: none;
+}
+
+.show-more-dropdown button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.show-more-dropdown a:hover, .show-more-dropdown button:hover{
+    text-decoration: underline;
+    color: #21252981;
+    cursor: pointer;
+}
+
+.game-image-container {
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    object-fit:fill;
+    margin-right: 10px;
+}
+
+#multi-select {
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  #multi-select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #multi-select option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .hidden{
+    display: none;
+  }
